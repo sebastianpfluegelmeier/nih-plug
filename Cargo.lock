@@ -1548,6 +1548,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "gain_gui_baseview"
+version = "0.1.0"
+dependencies = [
+ "atomic_float",
+ "baseview 0.1.0 (git+https://github.com/robbert-vdh/baseview.git?branch=feature/resize)",
+ "nih_plug",
+ "nih_plug_vizia",
+]
+
+[[package]]
 name = "gain_gui_egui"
 version = "0.1.0"
 dependencies = [
